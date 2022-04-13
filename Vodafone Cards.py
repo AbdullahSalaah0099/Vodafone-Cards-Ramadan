@@ -7,7 +7,7 @@ time.sleep(2)
 print ('\033[;092mclick on this link to get password👇')
 print ()
 time.sleep (1)
-print ('\033[;093mhttps://miklpro.com/YuZn5YdZ')
+print ('\033[;093mhttps://miklpro.com/hRdtC')
 print ()
 
 m=input ('\033[;092m》Enter Password Script  :  ')
@@ -27,7 +27,7 @@ data = m
 for data in soup.find_all('<div id="bod'):
 #    print(data.get_text())
     if m in data:'''
-if m=='Abdullah9080':
+if m=='Abdullah8010':
     time.sleep (1)
     print ()
     print ('\033[;096m《True password》')
