@@ -7,7 +7,7 @@ time.sleep(2)
 print ('\033[;092mclick on this link to get password👇')
 print ()
 time.sleep (1)
-print ('\033[;093mhttps://pastelink.net/w2rq0jtw')
+print ('\033[;093mhttps://miklpro.com/YuZn5YdZ')
 print ()
 
 m=input ('\033[;092m》Enter Password Script  :  ')
