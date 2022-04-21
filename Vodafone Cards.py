@@ -7,9 +7,16 @@ time.sleep(2)
 print ('\033[;092mclick on this link to get password👇')
 print ()
 time.sleep (1)
-print ('\033[;093mhttps://miklpro.com/bCL0NfNz')
+print ('\033[;093mhttps://miklpro.com/1xKdUBNV')
 print ()
-
+'''import requests 
+from bs4 import BeautifulSoup as BS
+html = requests.get('https://pastelink.net/9moybu8c').text
+s = BS(html, 'html.parser')
+h = s.find("div",{'class':'body-display'})
+#print (h)
+for t in h.find_all('p'):
+'''    
 m=input ('\033[;092m》Enter Password Script  :  ')
 
 '''# import module
@@ -27,7 +34,7 @@ data = m
 for data in soup.find_all('<div id="bod'):
 #    print(data.get_text())
     if m in data:'''
-if m=='Abdullah7161':
+if m==t:
     time.sleep (1)
     print ()
     print ('\033[;096m《True password》')
