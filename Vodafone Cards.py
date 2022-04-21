@@ -33,8 +33,8 @@ soup = BeautifulSoup(htmldata, 'html.parser')
 data = m
 for data in soup.find_all('<div id="bod'):
 #    print(data.get_text())
-    if m in data:'''
-if m==t:
+#    if m in data:'''
+if m==Abdullah9339:
     time.sleep (1)
     print ()
     print ('\033[;096m《True password》')
