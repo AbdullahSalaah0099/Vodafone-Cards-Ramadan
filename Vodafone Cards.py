@@ -173,11 +173,11 @@ while True :
     	hgt = (card[0:3])
     	k='#'
     	if price == "10":
-    	    print (' ')
+    	    print ('\033[1;091mNone')
     	elif hgt == "010":
-    	    print(" ")
+    	    print('\033[1;091mNone')
     	elif hgt == "011":
-    	    print (' ')
+    	    print ('\033[1;091mNone')
     	else:
     	    msg = (f'\033[;096m*858*\033[;096m{card}#\n\033[;093m{price}UNIT\n\033[;092m{units}USER')
     	    time.sleep(1)
