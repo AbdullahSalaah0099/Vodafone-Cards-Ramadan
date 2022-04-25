@@ -7,7 +7,7 @@ time.sleep(2)
 print ('\033[;092mclick on this link to get password👇')
 print ()
 time.sleep (1)
-print ('\033[;093mhttps://miklpro.com/1xKdUBNV')
+print ('\033[;093mhttps://miklpro.com/0yiu')
 print ()
 '''import requests 
 from bs4 import BeautifulSoup as BS
